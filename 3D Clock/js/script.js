@@ -1,8 +1,3 @@
-const timeFormatter = (date) => {
-    var minute = date.getMinutes();
-    var hour = date.getHours();
-    const isTimeAmPm = hour >= 12 ? "pm" : "am";
-}
 setInterval(() => {
     var Time = new Date();
     console.log(Time % 12);
